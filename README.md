@@ -1,0 +1,1 @@
+Mausam 2.0 is the second iteration of my first weather app project which uses OneApi 2.5 by openweathermap.org as the primary data source and also the Geolocation Api to actively track the user's location info
