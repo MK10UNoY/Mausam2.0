@@ -30,8 +30,8 @@ function details(alldata){
   //console.log(words);
   var symbl = alldata.weather[0].icon;
   console.log(symbl);
-  var iconUrl = `/assets/wicons/${symbl}.svg`;
-  //console.log(iconUrl);
+  var iconUrl = `https://github.com/MK10UNoY/Mausam2.0/assets/wicons/${symbl}.svg`;
+  console.log(iconUrl);
   // City and country
   document.getElementById("cityname").innerHTML = alldata.name;
   document.getElementById("country").innerText = alldata.sys.country;
@@ -222,12 +222,12 @@ LD_button.addEventListener("click",()=>{
   if(counter==0)
       {
       //LD_button.innerText=" Dark ";
-      LD_image.style.backgroundImage="url(`/assets/moon.svg`)";
+      LD_image.style.backgroundImage="url(`https://github.com/MK10UNoY/Mausam2.0/assets/moon.svg`)";
       counter=1;
       }
   else if(counter==1){
       //LD_button.innerText=" Light ";
-      LD_image.style.backgroundImage="url(`/assets/sun.svg`)";
+      LD_image.style.backgroundImage="url(`https://github.com/MK10UNoY/Mausam2.0/assets/sun.svg`)";
       counter=0;
   }
 })
