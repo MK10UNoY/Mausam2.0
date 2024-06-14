@@ -30,7 +30,7 @@ function details(alldata){
   //console.log(words);
   var symbl = alldata.weather[0].icon;
   //console.log(symbl);
-  var iconUrl = "main/assets/wicons/" + symbl + ".svg";
+  var iconUrl = `../assets/wicons/${symbl}.svg`;
   //console.log(iconUrl);
   // City and country
   document.getElementById("cityname").innerHTML = alldata.name;
