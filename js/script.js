@@ -29,7 +29,7 @@ function details(alldata){
   let words = alldata.weather[0].main;
   //console.log(words);
   var symbl = alldata.weather[0].icon;
-  //console.log(symbl);
+  console.log(symbl);
   var iconUrl = `../assets/wicons/${symbl}.svg`;
   //console.log(iconUrl);
   // City and country
